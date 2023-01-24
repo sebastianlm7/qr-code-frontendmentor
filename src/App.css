@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+#root {
+ max-width: 1440px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 2rem;
+
+ 
+ 
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imgbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+}
+
+.qr-fondo {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+  ;
+  
+  
+}
+
+.primer-parrafo {
+  font-family: 'Outfit';
+  font-size: 26px;
+  margin: auto;
+  width: 55%;
+  margin-top: 20px;
+  line-height: 1.1;
+  font-weight: bold;
+  
+   }
+
+.segundo-parrafo {
+    font-family: 'Outfit';
+    margin: auto;
+    width: 40%;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: hsl(220, 15%, 55%);
+     }
+  
+
+.app {
+  
+  
+}
